@@ -1,5 +1,13 @@
 {
 	"name": "samsonadf",
+	"properties": {
+		"globalParameters": {
+			"ziyaroot": {
+				"type": "string",
+				"value": "https://samsonstorage.blob.core.windows.net/blobstorage1/Customrole.txt"
+			}
+		}
+	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
